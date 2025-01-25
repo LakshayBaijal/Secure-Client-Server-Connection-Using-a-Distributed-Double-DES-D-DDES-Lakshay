@@ -13,18 +13,18 @@ This Assigment implements a secure multi-client server-client application using 
 
 ## Architecture
 
-- Server (server.py):
+### Server (server.py):
 
--- Listens for incoming client connections.
--- Performs Diffie-Hellman key exchange with each client to derive unique DES keys (K1 for encryption/decryption and K2 for HMAC).
--- Sends an encrypted session token to the client.
--- Receives encrypted data from clients, verifies HMAC, decrypts the data, and aggregates numeric inputs from all clients.
--- Sends back the updated aggregate to clients securely.
+- Listens for incoming client connections.
+- Performs Diffie-Hellman key exchange with each client to derive unique DES keys (K1 for encryption/decryption and K2 for HMAC).
+- Sends an encrypted session token to the client.
+- Receives encrypted data from clients, verifies HMAC, decrypts the data, and aggregates numeric inputs from all clients.
+- Sends back the updated aggregate to clients securely.
 
-- Client (client.py):
+### Client (client.py):
 
--- Connects to the server.
--- Engages in Diffie-Hellman key exchange to derive shared DES keys.
--- Receives and decrypts the session token from the server.
--- Sends numeric data to the server, encrypted and accompanied by an HMAC for integrity.
--- Receives and decrypts the aggregated result from the server.
+- Connects to the server.
+- Engages in Diffie-Hellman key exchange to derive shared DES keys.
+- Receives and decrypts the session token from the server.
+- Sends numeric data to the server, encrypted and accompanied by an HMAC for integrity.
+- Receives and decrypts the aggregated result from the server.
