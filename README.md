@@ -28,3 +28,18 @@ This Assigment implements a secure multi-client server-client application using 
 - Receives and decrypts the session token from the server.
 - Sends numeric data to the server, encrypted and accompanied by an HMAC for integrity.
 - Receives and decrypts the aggregated result from the server.
+
+## Implementation
+
+- Create Virtual Environment for Python
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+- Install pycryptodome
+```bash
+pip install pycryptodome
+```
+
+Run Client and Server in different terminals
