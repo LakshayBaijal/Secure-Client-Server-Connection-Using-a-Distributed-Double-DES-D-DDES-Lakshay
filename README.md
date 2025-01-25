@@ -1,5 +1,8 @@
 # Secure-Client-Server-Connection-Using-a-Distributed-Double-DES-D-DDES
-## Assigment Overview
+
+[Screencast from 2025-01-26 01-06-21.webm](https://github.com/user-attachments/assets/cddfe506-1a2c-46e3-baf3-e40e239707cd)
+
+## Overview
 
 This Assigment implements a secure multi-client server-client application using Python. The communication between the server and clients is encrypted using the Data Encryption Standard (DES) in Cipher Block Chaining (CBC) mode. Additionally, the application employs Diffie-Hellman key exchange for secure key derivation and HMAC-SHA256 for ensuring data integrity and authenticity.
 
