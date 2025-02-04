@@ -1,6 +1,6 @@
 # Secure-Client-Server-Connection-Using-a-Distributed-Double-DES-D-DDES
 
-[Screencast from 2025-01-26 01-06-21.webm](https://github.com/user-attachments/assets/cddfe506-1a2c-46e3-baf3-e40e239707cd)
+[Screencast from 2025-01-27 20-25-07.webm](https://github.com/user-attachments/assets/8512e25c-1a61-4780-b2b4-479b1c1d9758)
 
 ## Overview
 
