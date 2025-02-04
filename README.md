@@ -1,6 +1,6 @@
 # Secure-Client-Server-Connection-Using-a-Distributed-Double-DES-D-DDES
 
-[Screencast from 2025-01-27 20-25-07.webm](https://github.com/user-attachments/assets/8512e25c-1a61-4780-b2b4-479b1c1d9758)
+[LakshayBaijal-Secure-Client-Server-Connection-Using-a-Distributed-Double-DES-D-DDES-Lakshay- Assignment 1 for SNS Course.webm](https://github.com/user-attachments/assets/09439ea2-3448-400f-bb51-7b9169df144b)
 
 ## Overview
 
